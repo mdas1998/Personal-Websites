@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+.material-symbols-outlined {
+  font-size: 25px;
+}
+
+/* global.css or output.css */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #000;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #374151; /* Tailwind gray-700 */
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #4b5563; /* Tailwind gray-600 */
+}
