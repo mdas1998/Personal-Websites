@@ -39,7 +39,7 @@ const Manager = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center px-4 py-6 bg-gray-100 space-y-6">
+    <div className="min-h-[80vh] flex flex-col items-center px-4 py-6 bg-gray-100 space-y-6">
       {/* 🔹 Add Password Form */}
       <div className="w-full max-w-2xl bg-white rounded-2xl shadow-xl p-6 sm:p-8 border border-gray-200">
         <h2 className="text-2xl font-bold text-gray-800 text-center mb-6">
