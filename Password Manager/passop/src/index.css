@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+
+/* Define custom utilities using @utility so you can use neat class names */
+@utility input-style {
+  @apply w-full px-4 py-3 rounded-lg bg-gray-50 border border-gray-300 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-400;
+}
+
+@utility btn-primary {
+  @apply w-full py-3 rounded-lg bg-indigo-500 text-white font-semibold hover:bg-indigo-600 transition-colors;
+}
